@@ -27,7 +27,8 @@ list-style-type: none;
 }
 
 .container {
-  width: 600px;
+  width: 1150px;
+  left: 0;
   margin: 0 auto;
 }
 
@@ -45,8 +46,8 @@ list-style-type: none;
 }
 
 .img-circle{
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 200px;
   border-radius: 50%;
 }
 
@@ -58,12 +59,12 @@ img{
 }
 
 .sql-img{
-  width: 150px;
-  height: 100px;
+  width: 180px;
+  height: 150px;
   border-radius: 5px;
 }
 
-.btn {
+.btn-red {
   width: 150px;
   height: 20px;
   background-color: #ED3937;
@@ -72,9 +73,16 @@ img{
   margin: 0 auto;
 }
 
+.btn-blue {
+  width: 150px;
+  background-color: #2558AA;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
 .btn-text{
   color: white;
-  vertical-align: middle;
 }
 
 .list_inline_social li {
@@ -85,5 +93,67 @@ img{
 
 .list_inline_languages li {
   display: inline-block;
+  width: 22%;
+}
+
+#sidebar {
+  position: fixed;
+  background-color: #313432;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar a {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#sidebar i {
+  font-size: 20px;
+}
+
+#page-content {
+  margin-left: 150px;
+}
+
+#left {
+  float: left;
   width: 40%;
+  margin-right: 10px;
+  display: block;
+}
+
+#right {
+  float: right;
+  width: 58%;
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+#footer {
+ display: block;
+}
+
+#social
+{
+  height: 21%;
+}
+
+input .text-input{
+  width: 300px;
+  height: 30px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+}
+textarea{
+  width: 600px;
+  height: 120px;
+  border: 1px solid #cccccc;
+  padding: 5px;
 }
