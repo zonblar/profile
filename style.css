@@ -1,0 +1,89 @@
+/* Here goes your CSS */
+body {
+   background-color: #EBEBEB;
+   font-family: 'Roboto', sans-serif;
+   color: #8DAFEF;
+   size: 10px;
+   line-height: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif ;
+  color: #252E40;
+}
+
+a {
+  text-decoration: none;
+  color: #878985;
+}
+
+a:hover{
+  color: #581E22;
+}
+
+ul
+{
+list-style-type: none;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  margin: 10px auto;
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 5px 5px, 5px, #581E22;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.sql-img{
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 150px;
+  height: 20px;
+  background-color: #ED3937;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.btn-text{
+  color: white;
+  vertical-align: middle;
+}
+
+.list_inline_social li {
+  display: inline-block;
+  margin-left: -50px;
+  width: 40%;
+}
+
+.list_inline_languages li {
+  display: inline-block;
+  width: 40%;
+}
